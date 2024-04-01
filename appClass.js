@@ -4,7 +4,7 @@ import cookieParser from 'cookie-parser';
 
 // myfiles
 // db bağlantı işlemleri ve otomatik router işlemleri tanımlandı
-import config from './config/index.js';
+import { config } from './config/index.js';
 import router from './routes/index.js';
 import Database from './db/DataBase.js';
 
